@@ -25,4 +25,24 @@ This program determines the distortion and the camera matrix using OpenCV. The o
 * [OpenCV tutorial](http://docs.opencv.org/doc/tutorials/calib3d/camera_calibration/camera_calibration.html)
 
 ## example output
-![Example Output](images/output.png?raw=true "Example Output")
+The output will be a loooong xml file. With a loooot of information. Most probably you need to know the Camera Matrix and the Distortion Coefficients.
+The Camera Matrix is stored in the _ <Camera_Matrix> _ -child node _ <data> _ and the Distortion Coefficients are stored in the _ <Distortion_Coefficients> _  -child-node _ <data> _. So far so easy. But what number stands for what.
+_ <Camera_Matrix> _ consists of 9 elements in row and the elements stand for
+
+1. fx
+2. 0
+3. cx
+4. 0 
+5. fy
+6. cy
+7. 0
+8. 0
+9. 1
+
+_ <Distortion_Coefficients> _ consists of 5 elements in row and the elements stand for
+
+1. k1
+2. k2
+3. p1
+4. p2
+5. k3
