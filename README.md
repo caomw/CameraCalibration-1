@@ -1,5 +1,5 @@
 # CameraCalibration
-This program determines the distortion and the camera matrix
+This program determines the distortion and the camera matrix. It is entirely taken from the OpenCV tutorial as mentioned in section __literature__ and only slightly adjusted. The purpose of this repository is to have and provide a ready to compile code.
 
 ## what it does
 This program determines the distortion and the camera matrix using OpenCV. The output is an XML or YAML File telling you the camera instrinsic and distortion coefficients. 
